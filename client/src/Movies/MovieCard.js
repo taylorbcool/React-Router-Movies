@@ -5,7 +5,7 @@ import Movie from './Movie';
 const MovieCard = props => {
   return(
     <Link to={`/movie/${props.id}`}>
-      {/* <Movie /> */}
+      <Movie />
     </Link>
   );
 };
